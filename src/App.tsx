@@ -196,7 +196,7 @@ function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-bg.jpg"
+          src="./hero-bg.jpg"
           alt=""
           className="w-full h-full object-cover opacity-40"
         />
@@ -215,7 +215,7 @@ function Hero() {
           <div className="mb-8 relative inline-block">
             <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-2 border-cyan-500/40 glow-cyan mx-auto">
               <img
-                src="/hero-profile.jpg"
+                src="./hero-profile.jpg"
                 alt="Raphael Guido"
                 className="w-full h-full object-cover"
               />
@@ -328,17 +328,17 @@ function About() {
           <Reveal delay={100}>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-relaxed">
-                Sono Raphael Guido, un consulente IT e stratega digitale con sede in Puglia. 
-                Aiuto aziende e professionisti a navigare il mondo digitale con soluzioni 
+                Sono Raphael Guido, un consulente IT e stratega digitale con sede in Puglia.
+                Aiuto aziende e professionisti a navigare il mondo digitale con soluzioni
                 tecnologiche su misura.
               </p>
               <p className="text-lg text-white/70 leading-relaxed">
-                Dal trasporto all'e-commerce, dall'automazione alla consulenza strategica — 
-                trasformo ogni sfida in un'opportunità di crescita. Il mio approccio unisce 
+                Dal trasporto all'e-commerce, dall'automazione alla consulenza strategica —
+                trasformo ogni sfida in un'opportunità di crescita. Il mio approccio unisce
                 creatività, tecnica e visione imprenditoriale.
               </p>
               <p className="text-lg text-white/70 leading-relaxed">
-                Credo nel potere dell'innovazione Made in Italy e lavoro ogni giorno per 
+                Credo nel potere dell'innovazione Made in Italy e lavoro ogni giorno per
                 portare il Sud Italia al centro della scena digitale europea.
               </p>
             </div>
